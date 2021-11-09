@@ -25,6 +25,6 @@ def post_request_method(url_params, params, status_code_post):
     assert response, f"{response.status_code}, {response.text}"
     return response
 
-def check_post_response(response):
-    if response
-    
+
+# def check_post_response(response):
+#     if response
