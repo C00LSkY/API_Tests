@@ -13,7 +13,7 @@ def test_create_test_data():
     """
     with allure.step('Создание тестовых данных'):
         for order in orders:
-            post_request_method(url_params='order/create/', status_code_post=(200, 400, 404), params=json.dumps(order))
+            response = post_request_method(url_params='order/create/', status_code_post=(200, 400, 404), params=json.dumps(order))
 
 
 @pytest.mark.parametrize('id_varibals', test_data1)
