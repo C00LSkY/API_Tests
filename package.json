@@ -1,0 +1,31 @@
+{
+  "name": "tetris-game",
+  "version": "1.0.0",
+  "description": "A modern Tetris game built with HTML5 Canvas and JavaScript",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write src/**/*.js"
+  },
+  "keywords": ["tetris", "game", "html5", "canvas", "javascript"],
+  "author": "Tetris Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "jest": "^29.7.0",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0",
+    "@babel/preset-env": "^7.23.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
